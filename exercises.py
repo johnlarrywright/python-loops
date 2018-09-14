@@ -11,7 +11,11 @@
 # ...
 # ...
 ##'Number 8, your order is ready.'
+numbers = list(range(1,9))
 
+for number in numbers:
+    print(str(number) + ' your order is read')
+    
 
 #2 Now Serving
 #Create a while loop that will print the following message:
@@ -21,6 +25,12 @@
 # ...
 # ...
 # 'Now serving number 5.'
+
+serving = 0
+while serving < 6:
+    print ('Now serving number ' + str(serving))
+    serving +=1
+
 
 
 #3 3 is a Magic Number
@@ -33,7 +43,11 @@
 # ...
 # ...
 # 9 x 3 = 27
-
+table = 1
+while table < 10:
+    
+    print (str(table) + 'x' + '3 ' + '= ' + str(table * 3)) 
+    table +=1
 
 #4. Uber This!
 # Declare a variable named cars and assign it a list of 5 of your favorite car brands. Next create a for loop that will iterate through the cars list and prints the following: 'My next car will be a red x.' Where x represents each item in the list.
